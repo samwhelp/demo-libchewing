@@ -7,6 +7,14 @@
 * [討論「請教 ezgo13 的 fcitx-chewing 輸入法之自建字庫問題」](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=356758#forumpost356758)
 
 
+## Prototype
+
+* [chewing_userphrase_add](python/prototype/chewing_userphrase_add/00-start/main.py)
+* [chewing_userphrase_enumerate](python/prototype/chewing_userphrase_add/00-start/main.py)
+* [chewing_userphrase_lookup](python/prototype/chewing_userphrase_add/00-start/main.py)
+* [chewing_userphrase_remove](python/prototype/chewing_userphrase_add/00-start/main.py)
+
+
 ## 相關連結
 
 * https://gist.github.com/mitya57/1e49b079a91942782f62 ([1](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=356524#forumpost356524))
