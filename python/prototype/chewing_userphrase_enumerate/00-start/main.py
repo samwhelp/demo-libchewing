@@ -36,8 +36,10 @@ while libchewing.chewing_userphrase_has_next(ctx, phrase_len, bopomofo_len):
 	phrase = ctypes.create_string_buffer(phrase_len.value)
 	bopomofo = ctypes.create_string_buffer(bopomofo_len.value)
 	libchewing.chewing_userphrase_get(ctx, phrase, phrase_len, bopomofo, bopomofo_len)
-	print('phrase:', phrase.raw.decode())
-	print('bopomofo:', bopomofo.raw.decode())
+	##print('phrase:', phrase.raw.decode())
+	##print('bopomofo:', bopomofo.raw.decode())
+	print('phrase:', phrase.value.decode())
+	print('bopomofo:', bopomofo.value.decode())
 
 
 ctx = libchewing.chewing_delete(ctx)
