@@ -18,5 +18,5 @@
 
 * https://github.com/chewing/libchewing/blob/master/include/chewingio.h
 * https://github.com/chewing/libchewing/blob/master/test/test-userphrase.c
-* https://github.com/chewing/chewing-editor/blob/master/src/model/UserphraseModel.cpp#L203
+* https://github.com/chewing/chewing-editor/blob/0.0.1/src/model/UserphraseModel.cpp#L199
 * https://github.com/fcitx/fcitx-chewing/blob/master/src/eim.c
