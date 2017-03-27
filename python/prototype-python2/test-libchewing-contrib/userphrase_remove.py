@@ -10,4 +10,4 @@ bopomofo = 'ㄋㄟˋ ㄐㄧ'
 
 rtn = ctx.userphrase_remove(phrase, bopomofo)
 
-print('remove ( %s ) userphrase' % rtn)
+print('remove ( %d ) userphrase' % rtn)

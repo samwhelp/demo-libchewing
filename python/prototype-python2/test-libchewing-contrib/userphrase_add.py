@@ -10,4 +10,4 @@ bopomofo = 'ㄋㄟˋ ㄐㄧ'
 
 rtn = ctx.userphrase_add(phrase, bopomofo)
 
-print('add ( %s ) userphrase' % rtn)
+print('add ( %d ) userphrase' % rtn)

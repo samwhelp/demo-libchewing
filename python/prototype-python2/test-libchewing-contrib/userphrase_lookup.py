@@ -10,4 +10,4 @@ bopomofo = 'ㄋㄟˋ ㄐㄧ'
 
 rtn = ctx.userphrase_lookup(phrase, bopomofo)
 
-print('lookup ( %s ) userphrase' % rtn)
+print('lookup ( %d ) userphrase' % rtn)
