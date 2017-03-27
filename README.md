@@ -9,10 +9,10 @@
 
 ## Prototype
 
-* [chewing_userphrase_add](python/prototype/chewing_userphrase_add/00-start/main.py) ([h](https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L531)) ([c](https://github.com/chewing/libchewing/blob/v0.4.0/src/chewingio.c#L1985))
-* [chewing_userphrase_enumerate](python/prototype/chewing_userphrase_add/00-start/main.py) ([h](https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L523)) ([c](https://github.com/chewing/libchewing/blob/v0.4.0/src/chewingio.c#L1847))
-* [chewing_userphrase_lookup](python/prototype/chewing_userphrase_add/00-start/main.py) ([h](https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L535)) ([c](https://github.com/chewing/libchewing/blob/v0.4.0/src/chewingio.c#L2055))
-* [chewing_userphrase_remove](python/prototype/chewing_userphrase_add/00-start/main.py) ([h](https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L533)) ([c](https://github.com/chewing/libchewing/blob/v0.4.0/src/chewingio.c#L2026))
+* [chewing_userphrase_add](python/prototype/chewing_userphrase_add/00-start/main.py) ([c](https://github.com/samwhelp/demo-libchewing/blob/master/c/prototype/chewing_userphrase_add/00-start/main.c)) ([chewingio.h](https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L531)) ([chewingio.c](https://github.com/chewing/libchewing/blob/v0.4.0/src/chewingio.c#L1985))
+* [chewing_userphrase_enumerate](python/prototype/chewing_userphrase_enumerate/00-start/main.py) ([c](https://github.com/samwhelp/demo-libchewing/blob/master/c/prototype/chewing_userphrase_enumerate/00-start/main.c)) ([chewingio.h](https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L523)) ([chewingio.c](https://github.com/chewing/libchewing/blob/v0.4.0/src/chewingio.c#L1847))
+* [chewing_userphrase_lookup](python/prototype/chewing_userphrase_lookup/00-start/main.py) ([c](https://github.com/samwhelp/demo-libchewing/blob/master/c/prototype/chewing_userphrase_lookup/00-start/main.c)) ([chewingio.h](https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L535)) ([chewingio.c](https://github.com/chewing/libchewing/blob/v0.4.0/src/chewingio.c#L2055))
+* [chewing_userphrase_remove](python/prototype/chewing_userphrase_remove/00-start/main.py) ([c](https://github.com/samwhelp/demo-libchewing/blob/master/c/prototype/chewing_userphrase_remove/00-start/main.c)) ([chewingio.h](https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L533)) ([chewingio.c](https://github.com/chewing/libchewing/blob/v0.4.0/src/chewingio.c#L2026))
 
 
 ## 相關連結
