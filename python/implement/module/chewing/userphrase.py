@@ -9,6 +9,33 @@ libchewing.chewing_userphrase_has_next.argtypes = [ctypes.c_void_p, ctypes.POINT
 libchewing.chewing_userphrase_get.argtypes = [ctypes.c_void_p, ctypes.c_char_p, ctypes.c_uint, ctypes.c_char_p, ctypes.c_uint]
 
 
+def foreach (run):
+	phrase_len = ctypes.c_uint(0)
+	bopomofo_len = ctypes.c_uint(0)
+
+	ctx = libchewing.chewing_new()
+
+	## https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L523
+	rtn = libchewing.chewing_userphrase_enumerate(ctx)
+
+	# print(rtn)
+
+	if rtn < 0:
+		return 0
+
+	## https://github.com/chewing/libchewing/blob/v0.4.0/include/chewingio.h#L525
+	while libchewing.chewing_userphrase_has_next(ctx, phrase_len, bopomofo_len):
+
+		phrase = ctypes.create_string_buffer(phrase_len.value)
+		bopomofo = ctypes.create_string_buffer(bopomofo_len.value)
+		libchewing.chewing_userphrase_get(ctx, phrase, phrase_len, bopomofo, bopomofo_len)
+
+		run(phrase.value.decode(), bopomofo.value.decode())
+
+	ctx = libchewing.chewing_delete(ctx)
+
+	return 0
+
 def find_all():
 	phrase_len = ctypes.c_uint(0)
 	bopomofo_len = ctypes.c_uint(0)
@@ -22,7 +49,7 @@ def find_all():
 	list = []
 
 	if rtn < 0:
-		return data
+		return list
 
 	# print(rtn)
 
