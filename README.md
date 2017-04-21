@@ -1,6 +1,14 @@
 
-# demo-libchewing
+# [demo-libchewing](https://github.com/samwhelp/demo-libchewing)
 
+libchewing userphrase 使用範例
+
+* [C](c)
+* [Python](python)
+
+## 相關專案
+
+* [chewup](https://github.com/samwhelp/util-chewup)
 
 ## 原始討論串
 
